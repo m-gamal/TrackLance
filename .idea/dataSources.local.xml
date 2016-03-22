@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - TrackLance@localhost" uuid="519c713b-2877-42b6-8525-8fcf910e5f6a">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-pattern>TrackLance.*</schema-pattern>
+      <default-schemas>TrackLance.*</default-schemas>
+    </data-source>
+    <data-source name="Sqlite (Xerial) - TrackLance_testing.sqlite" uuid="6aa7d204-7569-435c-93bf-c8c9153b00e1">
+      <secret-storage>master_key</secret-storage>
+      <auth-required>false</auth-required>
+    </data-source>
+  </component>
+</project>
