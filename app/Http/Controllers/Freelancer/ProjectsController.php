@@ -36,7 +36,8 @@ class ProjectsController extends Controller
      */
     public function single($id)
     {
-        return '<h1>Single</h1>';
+        $project = Project::findOrFail($id);
+        return view('freelancer.projects.single', compact('project'));
     }
 
     /**

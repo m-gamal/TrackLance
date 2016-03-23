@@ -24,4 +24,4 @@ TrackLance is an application that enables the freelancers to manage their projec
 ## Support
 
 The following support ways can be used for contact.
-- [Email](mailto:TrackLance@mg-developer.com)
+- [Email](mailto:TrackLance@mg-freelancer.com)

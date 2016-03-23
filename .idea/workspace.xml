@@ -2,15 +2,336 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4353fb37-c34e-408d-9146-792f4a0c88d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/root.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/freelancer/projects/add.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/freelancer/projects/all.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/freelancer/projects/edit.blade.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/functional/freelancer/projects/AddProjectCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/functional/freelancer/projects/DeleteProjectCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/functional/freelancer/projects/EditProjectCept.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/functional/freelancer/projects/SingleProjectCept.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/freelancer/projects/single.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TrackLance" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/011c85b900ddd7560715df27f5b880e287d77bca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/01503757d98a4a3d1a21921856d1a97c234717e2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/01fe94a916cb95fae5f9aa6a2d21aa510299f5fa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/0297f9e6307db2881117e4f112a719e6baae0931" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/02a8c1c8b9ed33446784583fee19cc604f4c752b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/038bb2cc1fdbb84cd5d6d231cb07106416a98b36" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/041184342ac754908578143ee561f9c8dbcf5add" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/04f32c0834ac4c7a37c955fddec4e58272860244" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/052ae377f5ca9e376a2d7685b3d365dda3ee252f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/066206e117210e65d8ef589dd1ed07c02971d55e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/07589fbcd2787b9deb5442529d79130001f3e605" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/075b16ebdf0cbeb78a423689551f5ea2c15c23ed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/07848b0f26907f5dbaacd947f492d77bf682e3b3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/097df37619783834a2ee9421c9b070dff4ec11c5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/09bb28393f832bcd52c71133ac23ed42365ff3d1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/0a6987f2aa31104df1841a8979d0e299ae456ec0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/0a91dca2421ef5a977fcfd05915429d853acde7a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/0b9b2629fa90498eb157fdd5bcaf26e2a0ed3b87" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/0bfab8ec3e774cac10e6480b5b3066cc4b9b0ec2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/0da4608b1d015eb06d3d6d2f63554a9ceeaaa237" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/0e1ccecf992304187cfe3f191d53ef4ef10aa482" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/0e5380a2f1ad98cc6addb924666d8b3ec045724a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/0fadb82304b2a7eda27a5a1fa68b6ba588765d3a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/109abffa42926d0d8da6f4bd7c0f75439ab040c8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/114ec168dee9258084a7cc38fa4ee5aa167b1b6f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/11dd276f154d3e94815db684556351b3556ba076" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/11f979c5d68676b92a1863677a927305a32a9d8d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/13275915579e8c08c00884806e16051d9c79f64c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/1403d2b44fdd9aba8d0e399440532596b8499cea" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/14e8a8318fc077a1364ce8e46ee395d7d073dc4e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/163dc215cb562db70fb34c4dd3e07324989c6c61" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/16d8a108b4b36c1d703c464dd7796d8cad548e6c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/171321644c02ab7a8d00fdcc8de7fd7095bbc71b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/17323617d64dce1e21bacefe1d9e523a02ca7742" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/1a6f2c7415e6c322ec986db44d1b8381ee0987c5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/1b2bc9b1c4840e14f7236203817772e6f1eaee31" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/1b79b9dfea8a0def1fbc26da5ea484c7631208b5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/1bb7a5b56d186b694f0153e2f86a0f71ca251fa6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/1d4fbd4cd0b2f1d5140d5bffe47f5655e17ecb35" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/1e589f648aeb20634f0cbbd711fefbc4694761b9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/1ecedf7b5c8b87cda630bab8fcb219caee48b2d4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/1f5bbbe068ee51e956511401b267c3b38c899e5d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/211172e3a28657ee30efff5821e90c4e68e40dd3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/21bec6ec50aebc94acfa10c2c41d6f496f91fe2e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/2520726b3167dc1f39eb60723d274b6d286f31d1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/25527f8ca0b04564516ec3db2a55dc0fd6be77df" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/25f50939aa9b81bc84474493cb718e19216eff38" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/26347330acd85f9e07c2a27bd2403da81db4206d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/288c5e6bd2fdc87b624597a5670496fb66b07991" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/2ad8863f019c59a4c9fa1e21c6d047c8402a6737" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/2b91b4af79666fbd5a20ad4c495ad40db68d5bcc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/2c36b2ff204ae8bccbd1dc37a27248802694da9f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/2c73897ac969ed5970e4416c2dc9f4466341c0e8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/2c99520d5876c9c8a604cf7979d26a558c736dc9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/2cda3d9797bb0aad73622c3321c759afd2b79b0a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/2d09140f0e0ea70edd91fc5654610e2247f52940" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/2d6d406c8883ec1e136079e842f371905af32389" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/2da9a417ef52cebcabc65c1bcd039d5be571920c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/2de1ee965f1d76119e790e76d4a1e0d458281526" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/2e5113b415b3222e20df6e6bb6cda59832104fdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/2eff433b60a0dd49afc2a2daaf182b1a6be9b8c4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/2f4fde4d316862b2b3f00bc7220d9f3d70307650" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/3041a99a083d7448ffff95db6c37f185adcdd995" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/309bbff561391b83f57bc039f137e066c13a99a1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/3258f0446a010887fc455da2caff51d9c5b26689" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/32e8d3bf294da89d0d417e1fcede6b9dd7aab5fa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/331032de0b3b8a2fd462e1cfb81a8a2940a82d41" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/33c287e676a3acaf1e47be6c88eea019ac9f2ff5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/3492bd9cf96158e979321780df11f0499d519969" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/34c0152eeb5e7065b2a03685614800caa804cab0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/350a218d1b6b6baa698f27dcca87148b11b9b2d9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/35262808561ac68edf4e8ee1c741b51927b0395c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/3594ea2647a114d66f02a624f2a1cc15e13a48f4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/35e7b296f704d00cb6822a4637579ceb585b6c89" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/36189cffeb37a0f584e53ca0ba2bbdcac5e93a3b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/3621ce9888f6a8b5e1815b0f49df0a50fff8d566" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/362a7755b7d5d6bad510f0f99d5ea914312e6c64" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/37885ea33fe0a442b7c927cb42532745b1c6691b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/37faa5c2bea1c7ef99df7b4d02e1044471d69dcf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/387673eee7635c5e4812d901f25434eb597398af" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/3899fd55dc8f536ea09cd3b2d37809741dfcc413" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/38c55f6b78f59ecbf1fd4c66a82e4ac0da7b3757" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/38e6cfa240868e3151269063d2e48599f26d0244" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/3a6858ada0079c69d38f7cec6a185a6b306302d1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/3af1aae52f5a6a8784b524b8ba8f08e1442d2577" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/3c92b25274de64650e8a7caf0aca9b7a30014225" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/3d8ee2e56786b7618846eb88fb4024a938c18933" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/3dd8aa4229d45b01afc100800e25a514c798c16a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/3f48929ca7b19802aac33d5d725ff9dd9540fd1e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/3f7977a7c08f5e3f1b6665b2c7c63de54291fc6d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/3fd1f97409c2b7612faddde64638d0b3c77fc1d5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/41659d1153c4000f727b5f45e3066122a4b1c0f3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/42fc53e9775fb2d25a9d8823af5b140341a7c8cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/43f9962e45444f4e9dbd01dece39ceeed0064edd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/44367c6c730e9e135a4f816fcd076481cd8fa41c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/44deaf2c22dc02e67a65a0cefddf7f29872c0b7b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/4683affb4bcf1117b123e73aa9856315a6130e6e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/46b269fa83024c89365571786ae47af782bcf703" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/46bb3d387b58bd057dd675867f86fd9e4d44938c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/4835c243b8283cd415fe5da0bcb1d17f079fa536" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/495d7ee23a0f6f10c34c3ff0dac327fafd3de0dc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/49cdb899e7ab10b3f0822394d97508b9986ae88d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/4ddfffd4167fe3d8001947d8ae46438d981450e8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/4df04ed5f0480c77da726bfcdfd395c74de18cfb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/4ee01ecaec28fb4d2305f6ebb4d9f10bfa86477b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/4efd3a5eca017d5d1e8e4be768925929a9d90b00" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/4feb1449c81638a5bfeff75edb0ea75277543f30" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5031061e33737af93ff2f3fbe7235a97dc049bb7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/504d2f90eade2cb5effb14a675b671f86c1c5c56" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/509caee4286e1b2be3cd6d2c0fc96ff2d64330ca" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5183b0dc63bb461857c4fd0b6c0bb2fec250a7e4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5202305f207a35f527a1a2eef852611b7f779925" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/52f566b2633814f724eb6d45080d1b17639ab6a0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/536436cdac0c26f138b4f3dd475c0f7afbce14de" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/53ecda0c2a61a74ad6bf337a8236eccd925a05a0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5443e481d804c1098360753eb0a693a893f5b919" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/544ec5604f82044073eb325500ce908dfc8af9d2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5493c5403bec73aa2610e417ee249a9e5b359283" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/551381e560a50b7c420a508dca4d0639ffc3a8e8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/551c91485455e583024998e73464c351c6437e20" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5620cb4186712ff974352f2d2b17cebbd95eb2a7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5a271a834c6bf458096fbe2831a233170a355b76" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5a67b311976fd2bda0fcd805a6d12f16b2b47a27" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5a6c14e11b745f6bfda4ba074a77ede8e04f6f45" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5bf4aee101e6cd9f6c5651bc347ff2e394235eee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5cdb28a2fd481d69c23a5b85027825a17914a6a0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5e31938ed2a24db1e0439d8e35a7a9e92ab04795" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5ed1273f2ac8670b772ce688c74add50cd3efa8a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5f1cfb920c2c7d2ea204564f422f8626c58d938b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5faa4be38015632b1f79d075cdf71c9e5c69618c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/5ffc727a7dd1ba2e447f161ab55cb1f91d0b8d53" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/60fd5130de54f2151ab4b4255ab9c97e118fd1f4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/614d5dbc4092b138c07a5349dfbc844fbd1f4055" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/623ee685c85c7642126832c8e5cd5b449260ca3c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/62d7b3ba6f0d12b2204ad3f839a539c9cd02fa90" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/62e5eaf88db58c38ff6de809123e94861df2c764" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/63fe5eda999c134315d01dc18d6f95b0a30d4abf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/64d7f76314f69eaa589ebe7ef085e185d69c98c9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/650fcc2d7a3558f08d1f0d1b021c454cbd8f3a86" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/654f96a16341787bf675bab5569216c62ba32422" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/662d1f18a3da16ef2304a223f0f0291139c0c239" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/664c26af8b030c7dcb6d50d15bd23f69fa1f7b1e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/68cd045c345d4caa299b677c470ed2606f349b3b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/690f1067992da18fde20dd171535e99f30188114" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/6a05252e5b080640e314c181b5fb0a4af268d8fe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/6a25d97828b165f71ac21c40906f3b5221bcd108" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/6abaf7603d8b9b761ee26d881122ee0fe3d9927d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/6b08c83770f26f3dab1f2e99a809a19c821245b3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/6b59af100c7fab0370ff2c5a02ad589a9457a257" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/6d05994a28f203398d7c9d201fc1e1709e0d66a7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/6d1960f5d87f690bb15eb160a79a4a094a3ef846" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/6db1a5312be209332014c855044db4742ff60782" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/6e4a3e00061370abcb0a017c6fc743a71463d5e0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/6ef50f59211641b39e3a7d22e0911c979833ffda" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/6f4e45d6f4659cbe1b4cff1937c5d2482d558846" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/7012536770c1c3c521e8dfe87393d8f128d35219" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/701a939b12ec1f3375c5b8c8a19c474c6cd100a1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/70673f514b0ceac51e8287aaa7f67e9c407574cc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/7098aa9d31ec5e5178f35487c1e78b81aa2870ea" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/726229b80d8a3fdc535d48fb430433cd04c1f46d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/72aa3d06fd866ab9694ad70b2a8dfd23dfc42bd9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/750c68db337daf5ec85517f4f1c33048b2bc80aa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/7560dcb127e493da4cd17c74eb70a64cb250ac8b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/75774f3f5658d2a28bcd3ec7673ff30513867fc6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/758b9f017b9450b62f8596b819fa191257225a4f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/763b085ce65e9792d561f65b566f6dcdbaa80ada" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/76448219a0aade294e147e192b2be96eb000df44" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/78e89f6ed4017680259a71d18e96e7c8b0abb394" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/79ba59199d60ed522ea3acf18f718905b5bfe0fd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/79c25653373f5d68b3d394a19054d30d0483fcfb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/7ab3d450b3afe5b6385a221506c0ad070b87966e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/7ac5b38107024423b8be804fedd0e58869bc0bdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/7bc44675b3308ebc762d3b2479c51bde5160fc9b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/7c94b14a5c3a21ec8986c9f666389874c55a805e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/7cf4499f85178f9498576c4f02ffea94a90ff798" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/7d349717c1ffaed4b9622ef9224e263db23708ba" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/7e17d51c12eafe56dc474c6fe88c5184ca3ad163" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/7f8e0068268f6953c80b4fc00d0a6dd165b29808" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/7fd71f94744feaa0f2b1d184afb2ec1cd2463e3b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/8099b66fa8b6d0ffdc96f7f37c2249a4b8d735b7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/82b697ee9b71874a3081742ace4c2ae7d6b9b189" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/8430aee2e9c6a1c735edc08081d84e9f16ace169" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/84335c590db70176e0cc94d10bdd452125299ecf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/857e8dc3583e44ad38ca6229363536b2aba404f1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/88969911913bd8ec8e55d2547bb1292209726b44" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/8b08e2af3d0c2a6b327a3ab3245bb06ace31b9a3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/8ba9982da38edd2643a06ec1c37a602f875ec138" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/8c773777ec449f4dcb193d02cc8d4ebfafbeeae7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/8fb6f3d851a9bbbdd3a71ff3c31488ee518387aa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/8ff14ddac0c2793fd38509304821154110d398b4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/90a392bf153e824d529edb311b19b6c9ff3b0e1d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/90d2628587e20e2c75d65d1e27ec44b924876f07" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/90f9549109347be98db581762cccb027f4a40661" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/92c98800f3c58e835343ebdebec19259df464320" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/9393cb3766a5b7442cd5b6ea379f4f7d08d03338" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/94652c78658ee07eab5511180a385a3da64f036b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/958ee92129a58f0bbc6f7ff9f4062922ec703c3a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/9599cbb01b6cbb3774ae05fd8463f1e5f51d2f52" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/959fb2ec0878fd43aacfcbef1ba27a5a8c1996b3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/9645ec0fe84cb921709dc6a5cc4e4e125ddeb44e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/97357ee8df11949874e691e817887b7634a7dd4f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/97eeccdba8d5decc84ad4030d988ea8742deb6b6" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/981da3b70fdb1f3593f56c4815b15766ad05c1ee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/984b860f1dc9493686ec657a1c2492c63827d0ad" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/992e501568cf42a05a60ab1332856dbd9e889cde" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/9985e1f07fbaee7465ec43c298bb8f3bb8df68ad" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/9c0c24dadc708aeb9ac34762db1b4852a41fb510" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/9cd6643d889d6253143a7d378fdb1a92f6cbe20d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/9f3a634dedb4b934676b3e5a318c60e98e7c62c2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a0bbfc0069c4cbc357ca5d93216f91c4fc3a7dc7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a1e602407d355ad3af148fa3416d2833d85250b7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a27cad4f6ac8a519a2cd53911268c9eb39788dcd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a3baa38c016ed95b8a6718dd34cc4297051148e3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a3ccfb86d45db185e56cb8ea68dabd49fb126930" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a4585638cdebb0934e9f127ffce280837ee91080" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a4ffff2f495ee10f628f999ac9894ae2f103e4e5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a57ef6850f02638d5fd8695c2f93d1bac0eae995" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a5a6e0febcc8db84a18ea1df9f94fe53676e8e5d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a5a7413780a8d8cacf1cce90e0527ffb7ef76a18" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a5c7b726899bc610a24bb5e1257bd4b90e6bb23b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a5ce3b444fae1a72aeae20a16b3e66d335dd36e8" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a611f065db50793d524fd10f2d70598dd2bcd5a4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a7201ee405a4d91b88961b181ee0250d1ea78ad5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a88cbd0077e912e7aa0c2511e28cbfce7195060b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/a96434671d7e3b60c249314111cb9da37c9b28b0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/ab6fb9cd5ce2501415d9483954b0b4fe93ff7375" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/ad73e76cdeb42ddd380b624c0ad0697d652396dc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/adfd626873c5dbc07a1e12f5816827276757a93f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/ae62ef81859b4067d7be1049703937fdcd5a8377" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/b06516fab241aff12dfeaa9e1b19d03ac2ba47b9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/b3e4ae44d4b5db55765dc3b82929e17a428b104f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/b6e39a2a220a6d95db178544b1aa8c9f4ff1635c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/b76887fc4282b7e556ed9b580afd9fcbcf8fd944" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/b81d65caac9a95033e7ea3d9440a6386ed63713e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/b9fea4b0aed93c0033933fcb3efd8f7b0d354b21" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/bae8402d0e6a34665ed7e0cfac3fb8ed9b8057f5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/bb4d57d178d886b6f430b8bfd8adec3bfc95e660" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/bc6d3ca1c5388d4bade6b478e2b25d3e15911aed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/bcc474706eee7bdbca221ecc9fbea3c94f570b5c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/bcedda533f8e79b0508067505a78eafb727be737" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/bd91527cd915d65a8e2970c812cc07a748d9c9ef" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/beee8f69b6e402d94cb407d8c0e3ceabec7fa822" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/bffdb3012b8f14618bebd2317294bed269d10fe7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/c217539f7f758dc316ec85ead56b37d7ac27ae26" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/c2981463553b9303fb73ebdc05e234000a65f8d3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/c33feb892d22ab6f2249a2bfa2bb26e239c23ea0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/c4d61abaa82cfd673cbd27c4fe45f4afded70f78" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/c55737045bc2a2e447e7ad967d033be5e52241c9" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/c8a4a0eba0ae3dcf3dd6c8cbf6fa3c8f5d9e5912" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/c98777bf0a9c78a9ce1d419db57ac157b93740f4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/caa082eee8e9024a40c174417e666e1296c81752" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/cbca77fe8acca2e322c643b112038a934826d6db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/cc340a24bde9038cd807bf3ec16b8171c072257d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/ce2735165dc42a20147e394c318885c1a2bc7b67" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/ce3c352fede4afda5e0bad8a3813cd451b4cf982" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/cf257e8a936df538c082c7e440dea190dc19e81a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/d128471c0c0544f1ed92e579c7bc3f8f4ee79da0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/d330ca1e5a058afb65e0ea563354d93bd84fe12d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/d63b98d13d8ce55e006ab1ee5d85207f73b2edbf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/d6c635af812219576b1529c63091d2f4c3d77e9b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/d7f9f654dfed65d86c1b2fc8407af606085464ec" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/d818f56864615feca03caf3d366e5cac1c4085b4" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/d96c536c105081df13fc04a2f8d9ead0733e96bd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/d9981115843318b030f5d7bb2660011e740068ed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/d9d8a51d493a0c23023d78eea518d0c377bc999a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/da4f16daca2d8697579e952195e23c0ab7a9f96e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/db8a5dc10c797df2f24c022b044ee8b7c325f81e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/dc96b60a5dd85259c4a92d8cc69e1064cb8046c1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/dda9b83771ce929bd952be7f2a1f9e0ae8060e69" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/de3651bde8a006c8a4bfac11a1c341ad916d1f1a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/ded30b68231309721e5a034a4a2eff1f68c4a80b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/df98b1349013bd700ba077c0f6c8890c6879ce6a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/dfc56570ba51a472c79cd76e1f7c18e00110179d" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/e02b23b60a172815d019412abb1fda8d6454f530" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/e042939fbbfd7205acea268a56f34cbdcd5fa424" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/e060bc8b24cd553131327be26d7a9b5e6ae46172" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/e07242344b7eea8982c3ea5ada699533089b0557" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/e09b254f67ed743df0d26467ea82b55c431b884a" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/e19ead25df1b3eeeca31753bde8856ed87c95576" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/e28f2ca84e4dc2322e5d6d39b311e13a0021c2fa" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/e5e78ea72be27097339d1b076f5710e165610638" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/e940da173d2a8c18d9377586368b86576c782d57" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/e99929b0abadc4550b1ce321bc7bbab7d95517bc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/ea26f18858191c4c47ec4be20f57882df650d1d1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/ea8f85a6813786aabd6f86a1215fe5ecf4173d5e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/eb5b04a71059472f49b9f5b1f1b4431a03902f22" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/ece38d0a86ebf83d09b39c6205c3de83f0b96409" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/ed6708d3b30cc0e48dfb3ce719690367319268d5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/ee28f4f081d2aaf2f510d369cb267181f2d1e9d5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/eec61027fad6bedc76b7d1ff103f032794ff8d2b" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/ef68a250ea62d6ff6dfc6e1a8aa07c7313a7b233" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/ef6d899e1705a7a092dc8d32f3b0381596490dd5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/efcbeab747769aa59d47cebb336487a42ce7ceb1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f010046f0cf6255744700d6a6898e8c4940bdf00" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f0fe5f897d49b3f76e30a1de0f90f955ab2ccae5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f17391687fa3afb9dedd9b6aba6aa1870501916e" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f29fe8fbf760ea6127f16bab2507489925e37ce3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f30e2cfda984eb576b7b7e557c7a687d7147f676" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f350c9b463c03293f2ce4a80d6ef60f2b3803fb5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f3597d507306df27222516fd8415315d40842c4f" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f3edcd3446e669146a63c4c92920c916106b2751" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f4113a1868797e6eb25179d21541d60aaa277670" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f58b90dd772d058ffb1fe683fe10f68cb99d4a3c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f6080c484ddd8c6ae6ce136c5ad4319ab38cfdcf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f678c6a756658d6c0c72e89662e179e5d3e223e5" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f696c6dc9be3cf7a10a5d24212b2eff8612847bc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f7975aabcf38effa0552b9ffb7525063053099f2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f7b28591820f275284c76c427ae918805fbb25a1" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f831fc4030bc44799a3e27273bed49b2182b9776" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f8cd3e3dfb09708b2077bfe8c6136761df8efdb0" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f907bc9f0731de84623b778d01ce2aabc22fc0af" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f946c2f3584d1ed86097082395e60749c6097b6c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/f9c732b34b900cbf96174c0c51638d8129e8faef" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/fa971cf5aeab906ce1c44029cc96dee44b621c88" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/fb85d4d5858ffaf3e1400cfd8def0077f89417ef" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/fb9b52a7e6282b9b235c9b8ae89a23b766c4b5ed" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/fcde2e3effc5630d3e014d34a9dbdcbb0ce9d1ef" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/fdb71253aaea65eb1d3d6f4deb928dccef7dbbcc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/ffd24a8b85fd5cbbb3306a45353c2d703b245639" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/framework/sessions/ffdb322667dee6f2deac37f601641992ec634b25" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Freelancer/ProjectsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Freelancer/ProjectsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/layouts/layout2/css/custom.css" afterPath="$PROJECT_DIR$/public/assets/layouts/layout2/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/assets/pages/scripts/table-datatables-editable.js" afterPath="$PROJECT_DIR$/public/assets/pages/scripts/table-datatables-editable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/freelancer/clients/all.blade.php" afterPath="$PROJECT_DIR$/resources/views/freelancer/clients/all.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/freelancer/projects/all.blade.php" afterPath="$PROJECT_DIR$/resources/views/freelancer/projects/all.blade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/functional/freelancer/projects/SingleProjectCept.php" afterPath="$PROJECT_DIR$/tests/functional/freelancer/projects/SingleProjectCept.php" />
     </list>
     <ignored path="TrackLance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,18 +363,18 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
+            <state relative-caret-position="846">
               <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectsController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProjectsController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Freelancer/ProjectsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+            <state relative-caret-position="558">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
               <folding>
                 <element signature="e#6#68#0#PHP" expanded="true" />
                 <element signature="e#114#130#0#PHP" expanded="true" />
@@ -62,14 +383,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientsController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Freelancer/ClientsController.php">
+      <file leaf-file-name="SingleProjectCept.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/functional/freelancer/projects/SingleProjectCept.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
-              <folding>
-                <element signature="e#6#67#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="single.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/freelancer/projects/single.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="247" column="43" selection-start-line="247" selection-start-column="43" selection-end-line="247" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/assets/layouts/layout2/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -89,13 +428,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" />
-        <option value="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" />
-        <option value="$PROJECT_DIR$/tests/functional/_bootstrap.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
         <option value="$PROJECT_DIR$/tests/functional/LoginCept.php" />
         <option value="$PROJECT_DIR$/resources/views/freelancer/layouts/partials/head.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/freelancer/layouts/master.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/freelancer/layouts/partials/footer_scripts.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/freelancer/layouts/partials/header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
@@ -117,11 +452,9 @@
         <option value="$PROJECT_DIR$/config/database.php" />
         <option value="$PROJECT_DIR$/tests/functional/EditClientCept.php" />
         <option value="$PROJECT_DIR$/tests/functional/clients/DeleteClientCept.php" />
-        <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/resources/views/freelancer/layouts/partials/sidebar.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/freelancer/clients/add.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/freelancer/layouts/partials/head_scripts.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/freelancer/clients/all.blade.php" />
         <option value="$PROJECT_DIR$/public/assets/pages/scripts/components-select2.js" />
         <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
         <option value="$PROJECT_DIR$/composer.json" />
@@ -136,10 +469,16 @@
         <option value="$PROJECT_DIR$/app/Project.php" />
         <option value="$PROJECT_DIR$/resources/views/freelancer/projects/add.blade.php" />
         <option value="$PROJECT_DIR$/tests/functional/freelancer/projects/DeleteProjectCept.php" />
-        <option value="$PROJECT_DIR$/resources/views/freelancer/projects/all.blade.php" />
-        <option value="$PROJECT_DIR$/tests/functional/freelancer/projects/SingleProjectCept.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Freelancer/ClientsController.php" />
+        <option value="$PROJECT_DIR$/resources/views/freelancer/layouts/master.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Freelancer/ProjectsController.php" />
+        <option value="$PROJECT_DIR$/app/User.php" />
+        <option value="$PROJECT_DIR$/tests/functional/freelancer/projects/SingleProjectCept.php" />
+        <option value="$PROJECT_DIR$/public/assets/pages/scripts/table-datatables-editable.js" />
+        <option value="$PROJECT_DIR$/resources/views/freelancer/clients/all.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/freelancer/projects/all.blade.php" />
+        <option value="$PROJECT_DIR$/public/assets/layouts/layout2/css/custom.css" />
+        <option value="$PROJECT_DIR$/resources/views/freelancer/projects/single.blade.php" />
       </list>
     </option>
   </component>
@@ -150,21 +489,6 @@
     <gulpfiles>
       <GulpfileState>
         <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
-        <tasks>
-          <GulpTaskState>
-            <dependencies>
-              <dependency value="test" />
-              <dependency value="watch" />
-            </dependencies>
-            <task-name>default</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>test</task-name>
-          </GulpTaskState>
-          <GulpTaskState>
-            <task-name>watch</task-name>
-          </GulpTaskState>
-        </tasks>
       </GulpfileState>
     </gulpfiles>
   </component>
@@ -203,54 +527,53 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrackLance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrackLance" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TrackLance" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="clie&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;proj&#9;null&#9;null&#10;Pr&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ProjectsController.php&#10;Client&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;clients/al&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/clients/all.blade.php&#10;projects/add&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/projects/add.blade.php&#10;Project.php&#9;FILE&#9;file:///var/www/TrackLance/app/Project.php&#10;Cl&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;Clien&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;ClientsC&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;create_p&#9;FILE&#9;file:///var/www/TrackLance/database/migrations/2016_03_19_100934_create_projects_table.php&#10;Projec&#9;FILE&#9;file:///var/www/TrackLance/app/Project.php&#10;Proje&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ProjectsController.php&#10;Project.&#9;FILE&#9;file:///var/www/TrackLance/app/Project.php&#10;Clients&#9;null&#9;null&#10;Pro&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ProjectsController.php&#10;Model&#9;FILE&#9;file:///var/www/TrackLance/database/factories/ModelFactory.php&#10;cli&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;user&#9;FILE&#9;file:///var/www/TrackLance/app/User.php&#10;cl&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;cre&#9;FILE&#9;file:///var/www/TrackLance/database/migrations/2016_03_19_100934_create_projects_table.php&#10;clients/all&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/clients/all.blade.php&#10;side&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/layouts/partials/sidebar.blade.php&#10;rout&#9;FILE&#9;file:///var/www/TrackLance/app/Http/routes.php&#10;User&#9;FILE&#9;file:///var/www/TrackLance/app/User.php&#10;routes&#9;FILE&#9;file:///var/www/TrackLance/app/Http/routes.php&#10;clientsC&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;client&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;all.&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/clients/all.blade.php&#10;singleCl&#9;FILE&#9;file:///var/www/TrackLance/tests/functional/SingleClientCept.php&#10;logi&#9;FILE&#9;file:///var/www/TrackLance/resources/views/auth/login.blade.php&#10;head&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/layouts/partials/header.blade.php&#10;foot&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/layouts/partials/footer_scripts.blade.php&#10;AuthCo&#9;null&#9;null&#10;login.bl&#9;FILE&#9;file:///var/www/TrackLance/resources/views/auth/login.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="clients/al&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/clients/all.blade.php&#10;clients/a&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/clients/add.blade.php&#10;User&#9;FILE&#9;file:///var/www/TrackLance/app/User.php&#10;projects/all&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/projects/all.blade.php&#10;clie&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;proj&#9;null&#9;null&#10;Pr&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ProjectsController.php&#10;Client&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;projects/add&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/projects/add.blade.php&#10;Project.php&#9;FILE&#9;file:///var/www/TrackLance/app/Project.php&#10;Cl&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;Clien&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;ClientsC&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;create_p&#9;FILE&#9;file:///var/www/TrackLance/database/migrations/2016_03_19_100934_create_projects_table.php&#10;Projec&#9;FILE&#9;file:///var/www/TrackLance/app/Project.php&#10;Proje&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ProjectsController.php&#10;Project.&#9;FILE&#9;file:///var/www/TrackLance/app/Project.php&#10;Clients&#9;null&#9;null&#10;Pro&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ProjectsController.php&#10;Model&#9;FILE&#9;file:///var/www/TrackLance/database/factories/ModelFactory.php&#10;cli&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;user&#9;FILE&#9;file:///var/www/TrackLance/app/User.php&#10;cl&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;cre&#9;FILE&#9;file:///var/www/TrackLance/database/migrations/2016_03_19_100934_create_projects_table.php&#10;clients/all&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/clients/all.blade.php&#10;side&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/layouts/partials/sidebar.blade.php&#10;rout&#9;FILE&#9;file:///var/www/TrackLance/app/Http/routes.php&#10;routes&#9;FILE&#9;file:///var/www/TrackLance/app/Http/routes.php&#10;clientsC&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;client&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;all.&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/clients/all.blade.php&#10;singleCl&#9;FILE&#9;file:///var/www/TrackLance/tests/functional/SingleClientCept.php&#10;logi&#9;FILE&#9;file:///var/www/TrackLance/resources/views/auth/login.blade.php&#10;head&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/layouts/partials/header.blade.php&#10;foot&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/layouts/partials/footer_scripts.blade.php&#10;AuthCo&#9;null&#9;null&#10;login.bl&#9;FILE&#9;file:///var/www/TrackLance/resources/views/auth/login.blade.php" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../galiat-da3wah" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js.buildTools.gulp.node_interpreter" value="/usr/bin/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="110" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="115" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="120" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="910" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="110" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="115" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="120" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="910" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/freelancer/projects" />
+      <recent name="$PROJECT_DIR$/tests/functional/freelancer/projects" />
+      <recent name="$PROJECT_DIR$/tests/functional/clients" />
+      <recent name="$PROJECT_DIR$/resources/views/freelancer/clients" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests/functional/freelancer" />
       <recent name="$PROJECT_DIR$/tests/functional" />
       <recent name="$PROJECT_DIR$/tests/functional/clients" />
       <recent name="$PROJECT_DIR$/resources/views/freelancer" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/tests/functional/freelancer/projects" />
-      <recent name="$PROJECT_DIR$/resources/views/freelancer/projects" />
-      <recent name="$PROJECT_DIR$/tests/functional/clients" />
-      <recent name="$PROJECT_DIR$/resources/views/freelancer/clients" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunManager">
@@ -381,24 +704,27 @@
       <workItem from="1458491080474" duration="49000" />
       <workItem from="1458492992248" duration="1934000" />
       <workItem from="1458594510844" duration="10608000" />
+      <workItem from="1458675099880" duration="1642000" />
+      <workItem from="1458748099217" duration="6660000" />
+      <workItem from="1458769150841" duration="4683000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26073000" />
+    <option name="totallyTimeSpent" value="39058000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="24" width="1327" height="744" extended-state="7" />
+    <frame x="39" y="24" width="1327" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2778204" sideWeight="0.5246637" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22178988" sideWeight="0.4753363" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22490272" sideWeight="0.5331808" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22801556" sideWeight="0.46681923" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30294117" sideWeight="0.5214341" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289166" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980484" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30153847" sideWeight="0.47856587" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29907975" sideWeight="0.47856587" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -410,6 +736,26 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30294117" sideWeight="0.5214341" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.47856587" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22490272" sideWeight="0.5331808" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22490272" sideWeight="0.46681923" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289166" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980484" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910313" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -429,6 +775,113 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Freelancer/ProjectsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding>
+            <element signature="e#6#68#0#PHP" expanded="true" />
+            <element signature="e#114#130#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/functional/freelancer/projects/SingleProjectCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/freelancer/projects/single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/freelancer/projects/all.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="77" column="35" selection-start-line="77" selection-start-column="35" selection-end-line="77" selection-end-column="35" />
+          <folding>
+            <marker date="1458770077493" expanded="true" signature="4422:4820" placeholder="..." />
+            <marker date="1458770077493" expanded="true" signature="4470:4782" placeholder="..." />
+            <marker date="1458770077493" expanded="true" signature="4471:4781" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Freelancer/ProjectsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#6#68#0#PHP" expanded="true" />
+            <element signature="e#114#130#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/functional/freelancer/projects/SingleProjectCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Freelancer/ClientsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Freelancer/ProjectsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#6#68#0#PHP" expanded="true" />
+            <element signature="e#114#130#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Freelancer/ClientsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
@@ -439,7 +892,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -455,11 +907,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2052">
           <caret line="114" column="55" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="55" />
-          <folding>
-            <marker date="1458602430518" expanded="true" signature="1750:2041" placeholder="..." />
-            <marker date="1458602430518" expanded="true" signature="1778:2023" placeholder="..." />
-            <marker date="1458602430518" expanded="true" signature="1779:2022" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -467,7 +914,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -482,14 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-516">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/composer.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -501,7 +939,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,7 +946,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -517,7 +953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -525,7 +960,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -533,11 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-486">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1458084542000" expanded="true" signature="1189:1443" placeholder="..." />
-            <marker date="1458084542000" expanded="true" signature="1217:1425" placeholder="..." />
-            <marker date="1458084542000" expanded="true" signature="1218:1424" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -545,7 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -553,7 +981,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -561,7 +988,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -569,12 +995,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-582">
           <caret line="134" column="147" selection-start-line="134" selection-start-column="147" selection-end-line="134" selection-end-column="147" />
-          <folding>
-            <marker date="1458602430374" expanded="true" signature="1744:2053" placeholder="..." />
-            <marker date="1458602430374" expanded="true" signature="1772:2035" placeholder="..." />
-            <marker date="1458602430374" expanded="true" signature="1773:2034" placeholder="..." />
-            <marker date="1458602430374" expanded="true" signature="4015:4073" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -582,9 +1002,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
-          <folding>
-            <element signature="e#23#62#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,11 +1009,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="131" column="147" selection-start-line="131" selection-start-column="147" selection-end-line="131" selection-end-column="147" />
-          <folding>
-            <marker date="1458602430518" expanded="true" signature="1750:2041" placeholder="..." />
-            <marker date="1458602430518" expanded="true" signature="1778:2023" placeholder="..." />
-            <marker date="1458602430518" expanded="true" signature="1779:2022" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -604,47 +1016,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/freelancer/clients/all.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="100" />
-          <folding>
-            <marker date="1458388964000" expanded="true" signature="4391:4787" placeholder="..." />
-            <marker date="1458388964000" expanded="true" signature="4439:4749" placeholder="..." />
-            <marker date="1458388964000" expanded="true" signature="4440:4748" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/freelancer/projects/all.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="74" column="55" selection-start-line="74" selection-start-column="55" selection-end-line="74" selection-end-column="55" />
-          <folding>
-            <marker date="1458602707584" expanded="true" signature="4338:4736" placeholder="..." />
-            <marker date="1458602707584" expanded="true" signature="4386:4698" placeholder="..." />
-            <marker date="1458602707584" expanded="true" signature="4387:4697" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/functional/freelancer/projects/SingleProjectCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -652,20 +1023,102 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="4" selection-end-column="3" />
-          <folding>
-            <element signature="e#6#67#0#PHP" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/freelancer/layouts/master.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="24" column="7" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Freelancer/ProjectsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+        <state relative-caret-position="558">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
           <folding>
             <element signature="e#6#68#0#PHP" expanded="true" />
             <element signature="e#114#130#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="44" column="5" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/freelancer/clients/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/functional/freelancer/projects/SingleProjectCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/freelancer/clients/all.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="58" column="98" selection-start-line="58" selection-start-column="98" selection-end-line="58" selection-end-column="98" />
+          <folding>
+            <marker date="1458770077601" expanded="true" signature="4374:4770" placeholder="..." />
+            <marker date="1458770077601" expanded="true" signature="4422:4732" placeholder="..." />
+            <marker date="1458770077601" expanded="true" signature="4423:4731" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/freelancer/projects/all.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="58" column="98" selection-start-line="58" selection-start-column="98" selection-end-line="58" selection-end-column="98" />
+          <folding>
+            <marker date="1458770077493" expanded="true" signature="4422:4820" placeholder="..." />
+            <marker date="1458770077493" expanded="true" signature="4470:4782" placeholder="..." />
+            <marker date="1458770077493" expanded="true" signature="4471:4781" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/pages/scripts/table-datatables-editable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="47" column="41" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/layouts/layout2/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/freelancer/projects/single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="247" column="43" selection-start-line="247" selection-start-column="43" selection-end-line="247" selection-end-column="43" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -56,7 +56,7 @@
                         </div>
                     @endif
 
-                    <table class="table table-striped table-hover table-bordered" id="sample_editable_1">
+                    <table class="table table-striped table-hover table-bordered sample_editable_1">
                         <thead>
                         <tr>
                             <th> Name </th>
@@ -75,9 +75,9 @@
                             <td> {{$client->mobile}} </td>
                             <td>
                             @if($client->website )
-                                    <a href="{{$client->website}}" target="_blank">
-                                        {{$client->website}}
-                                    </a>
+                                <a href="{{$client->website}}" target="_blank">
+                                    {{$client->website}}
+                                </a>
                             @endif
                             </td>
                             <td>

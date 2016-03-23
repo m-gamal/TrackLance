@@ -45,7 +45,7 @@ var TableDatatablesEditable = function () {
             oTable.fnDraw();
         }
 
-        var table = $('#sample_editable_1');
+        var table = $('.sample_editable_1');
 
         var oTable = table.dataTable({
 

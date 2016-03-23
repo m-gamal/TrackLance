@@ -56,11 +56,12 @@
                         </div>
                     @endif
 
-                    <table class="table table-striped table-hover table-bordered" id="sample_editable_1">
+                    <table class="table table-striped table-hover table-bordered sample_editable_1">
                         <thead>
                         <tr>
                             <th> Name </th>
                             <th> Client </th>
+                            <th> Progress </th>
                             <th> Start </th>
                             <th> End</th>
                             <th> Cost</th>
@@ -74,6 +75,7 @@
                         <tr>
                             <td><a href="{{url("project/{$project->id}")}}">{{$project->name}}</a></td>
                             <td>{{$project->client->name}}</td>
+                            <td>30%</td>
                             <td>{{$project->start}}</td>
                             <td>{{$project->end}}</td>
                             <td>{{$project->cost}}</td>
