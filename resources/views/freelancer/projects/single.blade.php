@@ -29,6 +29,81 @@
         </div>
         <!-- END PAGE HEADER-->
         <div class="row">
+            <div class="col-md-3">
+                <div class="dashboard-stat green-meadow">
+                    <div class="visual">
+                        <i class="fa fa-comments"></i>
+                    </div>
+                    <div class="details">
+                        <div class="number"> 30 </div>
+                        <div class="desc"> Notes </div>
+                    </div>
+                    <a class="more" href="javascript:;">
+                        <strong>
+                            <i class="fa fa-plus"></i>
+                            Add Note
+                        </strong>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="dashboard-stat green-meadow">
+                    <div class="visual">
+                        <i class="fa fa-files-o"></i>
+                    </div>
+                    <div class="details">
+                        <div class="number"> 10 </div>
+                        <div class="desc"> Files </div>
+                    </div>
+                    <a class="more" href="javascript:;">
+                        <strong>
+                            <i class="fa fa-plus"></i>
+                            Add File
+                        </strong>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="dashboard-stat green-meadow">
+                    <div class="visual">
+                        <i class="fa fa-tasks"></i>
+                    </div>
+                    <div class="details">
+                        <div class="number"> 12 </div>
+                        <div class="desc"> Tasks </div>
+                    </div>
+                    <a class="more" href="javascript:;">
+                        <strong>
+                            <i class="fa fa-plus"></i>
+                            Add Task
+                        </strong>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="dashboard-stat green-meadow">
+                    <div class="visual">
+                        <i class="fa fa-pie-chart"></i>
+                    </div>
+                    <div class="details">
+                        <div class="number"> 2 </div>
+                        <div class="desc"> Milestone </div>
+                    </div>
+                    <a class="more" href="javascript:;">
+                        <strong>
+                            <i class="fa fa-plus"></i>
+                            Add Milestone
+                        </strong>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
             <div class="col-md-12">
                 <!-- Begin: life time stats -->
                 <div class="portlet light portlet-fit portlet-datatable ">
@@ -51,7 +126,7 @@
                                 </li>
                                 <li>
                                     <a href="#files_tab" data-toggle="tab">
-                                        <i class="fa fa-file-o"></i>
+                                        <i class="fa fa-files-o"></i>
                                         Files
                                     </a>
                                 </li>
@@ -75,7 +150,7 @@
                                 </li>
                                 <li>
                                     <a href="#milestones_tab" data-toggle="tab">
-                                        <i class="fa fa-credit-card"></i>
+                                        <i class="fa fa-pie-chart"></i>
                                         Milestones
                                     </a>
                                 </li>
@@ -194,6 +269,33 @@
                                     </div>
                                 </div>
                                 <div class="tab-pane" id="files_tab">
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="portlet green-meadow box">
+                                                <div class="portlet-title">
+                                                    <div class="caption">
+                                                        <i class="fa fa-files-o"></i>Files List
+                                                    </div>
+                                                </div>
+                                                <div class="portlet-body">
+                                                    <table class="table table-striped table-hover table-bordered sample_editable_1">
+                                                        <thead>
+                                                        <tr>
+                                                            <th> File </th>
+                                                            <th> Date </th>
+                                                        </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                        <tr>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div class="tab-pane" id="tasks_tab">
