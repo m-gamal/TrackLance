@@ -82,12 +82,12 @@ var TableDatatablesEditable = function () {
             ] // set first column as a default sort by asc
         });
 
-        var tableWrapper = $("#sample_editable_1_wrapper");
+        var tableWrapper = $(".sample_editable_1_wrapper");
 
         var nEditing = null;
         var nNew = false;
 
-        $('#sample_editable_1_new').click(function (e) {
+        $('.sample_editable_1_new').click(function (e) {
             e.preventDefault();
 
             if (nNew && nEditing) {

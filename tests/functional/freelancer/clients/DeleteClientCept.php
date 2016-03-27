@@ -7,4 +7,5 @@ $I->amOnPage('clients/all');
 $I->click('#delete_client_'.$client->id);
 $I->click('Yes');
 $I->canSeeInCurrentUrl('clients/all');
+$I->dontSee($client->name);
 $I->see('Client has been deleted successfully !');

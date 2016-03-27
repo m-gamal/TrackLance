@@ -6,6 +6,7 @@
 
 namespace App\Http\Controllers\Freelancer;
 
+use App\Repositories\Clients\ClientRepositoryInterface;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -17,14 +18,25 @@ use App\User;
  */
 class ClientsController extends Controller
 {
+    protected $clients;
+
+    /**
+     * ClientsController constructor.
+     * @param $clients
+     */
+    public function __construct(ClientRepositoryInterface $clients)
+    {
+        $this->clients = $clients;
+    }
+
     /**
      * Show all clients
      * @return \Illuminate\View\View
      */
     public function listAll()
     {
-        $clients = User::getClients();
-    	return View('freelancer.clients.all', compact('clients'));
+        $clients = $this->clients->all();
+        return View('freelancer.clients.all', compact('clients'));
     }
 
     /**
@@ -56,15 +68,7 @@ class ClientsController extends Controller
         $this->validateClientData($request, null);
 
         try {
-            User::create([
-                'name'  => $request->name,
-                'email' =>  $request->email,
-                'password' =>  \Hash::make('password'),
-                'mobile' => $request->mobile,
-                'website' => $request->website,
-                'role'  =>  0
-
-            ]);
+            $this->clients->store($request);
             return redirect()->back()->withInput()->with('message','Client has been added successfully !');
         } catch (ParseException $ex) {
             echo 'Failed to create new client , with error message: ' . $ex->getMessage();
@@ -93,7 +97,7 @@ class ClientsController extends Controller
         $this->validateClientData($request, $id);
 
         try {
-            User::where('id', $id)->update($request->only(['name', 'email', 'mobile', 'website']));
+            $this->clients->update($request, $id);
             return redirect()->back()->withInput()->with('message','Client has been updated successfully !');
         } catch (ParseException $ex) {
             echo 'Failed to update this client , with error message: ' . $ex->getMessage();
@@ -109,7 +113,7 @@ class ClientsController extends Controller
     public function delete($id)
     {
         try {
-            User::destroy($id);
+            $this->clients->delete($id);
             return redirect()->back()->withInput()->with('message','Client has been deleted successfully !');
         } catch (ParseException $ex) {
             echo 'Failed to create delete this client , with error message: ' . $ex->getMessage();
@@ -118,7 +122,7 @@ class ClientsController extends Controller
 
 
     /**
-     * Validate Client Data before persisting it 
+     * Validate Client Data before persisting it
      * @param $request
      * @param null $id
      */
