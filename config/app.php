@@ -157,7 +157,8 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Providers\ClientsServiceProvider::class,
-        App\Providers\ProjectsServiceProvider::class
+        App\Providers\ProjectsServiceProvider::class,
+        App\Providers\NotesServiceProvider::class
     ],
 
     /*
