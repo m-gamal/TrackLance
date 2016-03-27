@@ -1,5 +1,5 @@
 @extends('freelancer.layouts.master')
-@section('title') Single Project @endsection
+@section('title') {{$project->name}} @endsection
 @section('custom_head_styles')
     <link href="{{URL::asset('assets/global/plugins/datatables/datatables.min.css')}}" rel="stylesheet" type="text/css" />
     <link href="{{URL::asset('assets/global/plugins/datatables/plugins/bootstrap/datatables.bootstrap.css')}}" rel="stylesheet" type="text/css" />
@@ -15,15 +15,15 @@
             <ul class="page-breadcrumb">
                 <li>
                     <i class="icon-home"></i>
-                    <a href="index.html">Home</a>
+                    <a href="#">Home</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <span>Projects</span>
+                    <a href="{{url('projects/all')}}">Projects</a>
                     <i class="fa fa-angle-right"></i>
                 </li>
                 <li>
-                    <span>Single</span>
+                    <span>{{$project->name}}</span>
                 </li>
             </ul>
         </div>
@@ -38,7 +38,7 @@
                         <div class="number"> 30 </div>
                         <div class="desc"> Notes </div>
                     </div>
-                    <a class="more" href="javascript:;">
+                    <a class="more" href="{{url("project/{$project->id}/note/add")}}">
                         <strong>
                             <i class="fa fa-plus"></i>
                             Add Note
@@ -125,6 +125,12 @@
                                     </a>
                                 </li>
                                 <li>
+                                    <a href="#notes_tab" data-toggle="tab">
+                                        <i class="fa fa-comment"></i>
+                                        Notes
+                                    </a>
+                                </li>
+                                <li>
                                     <a href="#files_tab" data-toggle="tab">
                                         <i class="fa fa-files-o"></i>
                                         Files
@@ -134,12 +140,6 @@
                                     <a href="#tasks_tab" data-toggle="tab">
                                         <i class="fa fa-tasks"></i>
                                         Tasks
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#notes_tab" data-toggle="tab">
-                                        <i class="fa fa-comment"></i>
-                                        Notes
                                     </a>
                                 </li>
                                 <li>
@@ -347,15 +347,17 @@
                                                         <tr>
                                                             <th> Title </th>
                                                             <th> Date </th>
-                                                            <th> Statue </th>
+                                                            <th> Status </th>
                                                         </tr>
                                                         </thead>
                                                         <tbody>
+                                                        @foreach($project->notes as $note)
                                                         <tr>
-                                                            <td></td>
-                                                            <td></td>
-                                                            <td></td>
+                                                            <td><a href="{{url("project/{$project->id}/note/{$note->id}")}}">{{$note->title}}</a></td>
+                                                            <td>{{$note->created_at}}</td>
+                                                            <td>{{$note->status}}</td>
                                                         </tr>
+                                                        @endforeach
                                                         </tbody>
                                                     </table>
                                                 </div>

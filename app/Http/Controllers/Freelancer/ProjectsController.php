@@ -18,7 +18,6 @@ use App\Http\Controllers\Controller;
  */
 class ProjectsController extends Controller
 {
-
     /**
      * Show all projects
      * @return \Illuminate\View\View
@@ -138,7 +137,7 @@ class ProjectsController extends Controller
     
 
     /**
-     * Validate Client Data before persisting it
+     * Validate project data before persisting it
      * @param $request
      */
     public function validateProjectData($request)
@@ -165,4 +164,6 @@ class ProjectsController extends Controller
     {
         return User::getClients();
     }
+    
+    
 }

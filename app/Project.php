@@ -48,4 +48,9 @@ class Project extends Model
     {
         $this->attributes['status'] = ($value == 'on') ? $value = 1 : $value = 0;
     }
+    
+    public function notes()
+    {
+        return $this->hasMany(ProjectNotes::class);
+    }
 }

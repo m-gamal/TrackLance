@@ -1,8 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4353fb37-c34e-408d-9146-792f4a0c88d1" name="Default" comment="">
+    <list default="true" id="4353fb37-c34e-408d-9146-792f4a0c88d1" name="Default" comment="Update in UI for Single Project">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/_data/note.zip" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/freelancer/projects/notes/add.blade.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/views/freelancer/projects/notes/single.blade.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/storage/app/public/.gitignore" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Freelancer/ProjectsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Freelancer/ProjectsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Project.php" afterPath="$PROJECT_DIR$/app/Project.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database/factories/ModelFactory.php" afterPath="$PROJECT_DIR$/database/factories/ModelFactory.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/freelancer/projects/single.blade.php" afterPath="$PROJECT_DIR$/resources/views/freelancer/projects/single.blade.php" />
     </list>
     <ignored path="TrackLance.iws" />
@@ -35,18 +43,70 @@
       <file leaf-file-name="routes.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="846">
-              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="0">
+              <caret line="78" column="51" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="51" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="single.blade.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/freelancer/projects/single.blade.php">
+      <file leaf-file-name="NotesController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Freelancer/NotesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="151" column="41" selection-start-line="151" selection-start-column="41" selection-end-line="151" selection-end-column="41" />
+            <state relative-caret-position="314">
+              <caret line="67" column="42" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="42" />
+              <folding>
+                <element signature="e#51#69#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="note_files" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/6192c71f/6aa7d204-7569-435c-93bf-c8c9153b00e1/note_files">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddNoteCept.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/functional/freelancer/projects/notes/AddNoteCept.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.blade.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/freelancer/projects/notes/add.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="106">
+              <caret line="95" column="60" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
+              <folding>
+                <marker date="1459093703447" expanded="true" signature="1741:2058" placeholder="..." />
+                <marker date="1459093703447" expanded="true" signature="1769:2040" placeholder="..." />
+                <marker date="1459093703447" expanded="true" signature="1770:2039" placeholder="..." />
+                <marker date="1459093703447" expanded="true" signature="1894:2039" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddNoteCept.fail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/_output/AddNoteCept.fail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="142">
+              <caret line="336" column="38" selection-start-line="336" selection-start-column="38" selection-end-line="336" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -67,21 +127,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/freelancer/layouts/partials/sidebar.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/freelancer/clients/add.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/freelancer/layouts/partials/head_scripts.blade.php" />
-        <option value="$PROJECT_DIR$/public/assets/pages/scripts/components-select2.js" />
-        <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
-        <option value="$PROJECT_DIR$/composer.json" />
-        <option value="$PROJECT_DIR$/app/Http/routes.php" />
-        <option value="$PROJECT_DIR$/tests/functional.suite.yml" />
-        <option value="$PROJECT_DIR$/tests/functional/freelancer/clients/DeleteClientCept.php" />
-        <option value="$PROJECT_DIR$/tests/functional/freelancer/projects/AddProjectCept.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_03_19_100934_create_projects_table.php" />
         <option value="$PROJECT_DIR$/tests/functional/freelancer/projects/EditProjectCept.php" />
         <option value="$PROJECT_DIR$/tests/functional/freelancer/projects/ListProjectsCept.php" />
         <option value="$PROJECT_DIR$/resources/views/freelancer/projects/edit.blade.php" />
-        <option value="$PROJECT_DIR$/app/Project.php" />
         <option value="$PROJECT_DIR$/resources/views/freelancer/projects/add.blade.php" />
         <option value="$PROJECT_DIR$/tests/functional/freelancer/projects/DeleteProjectCept.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Freelancer/ClientsController.php" />
@@ -107,7 +155,6 @@
         <option value="$PROJECT_DIR$/database/migrations/2016_03_25_000456_create_project_tasks_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_03_25_000504_create_project_files_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_03_25_000514_create_project_progress_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2016_03_25_000521_create_project_notes_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_03_25_000533_create_project_note_comments_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_03_25_000543_create_project_task_files_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_03_25_000551_create_project_note_files_table.php" />
@@ -117,7 +164,20 @@
         <option value="$PROJECT_DIR$/database/migrations/2016_03_25_001737_create_project_tasks_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2016_03_25_000533_create_note_comments_table.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Freelancer/ProjectsController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_03_25_000521_create_project_notes_table.php" />
+        <option value="$PROJECT_DIR$/app/Project.php" />
+        <option value="$PROJECT_DIR$/database/factories/ModelFactory.php" />
+        <option value="$PROJECT_DIR$/app/Http/routes.php" />
+        <option value="$PROJECT_DIR$/app/ProjectNotes.php" />
         <option value="$PROJECT_DIR$/resources/views/freelancer/projects/single.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/freelancer/projects/notes/single.blade.php" />
+        <option value="$PROJECT_DIR$/tests/functional/freelancer/projects/notes/SingleNoteCept.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2016_03_25_000551_create_note_files_table.php" />
+        <option value="$PROJECT_DIR$/app/NoteFiles.php" />
+        <option value="$PROJECT_DIR$/resources/views/freelancer/projects/notes/add.blade.php" />
+        <option value="$PROJECT_DIR$/tests/functional/freelancer/projects/notes/AddNoteCept.php" />
+        <option value="$PROJECT_DIR$/tests/_output/AddNoteCept.fail.html" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Freelancer/NotesController.php" />
       </list>
     </option>
   </component>
@@ -166,6 +226,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -185,17 +246,176 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_output" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_data" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freelancer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freelancer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="notes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="freelancer" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackLance" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="projects/si&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/projects/single.blade.php&#10;clients/al&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/clients/all.blade.php&#10;clients/a&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/clients/add.blade.php&#10;User&#9;FILE&#9;file:///var/www/TrackLance/app/User.php&#10;projects/all&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/projects/all.blade.php&#10;clie&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;proj&#9;null&#9;null&#10;Pr&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ProjectsController.php&#10;Client&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;projects/add&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/projects/add.blade.php&#10;Project.php&#9;FILE&#9;file:///var/www/TrackLance/app/Project.php&#10;Cl&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;Clien&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;ClientsC&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;create_p&#9;FILE&#9;file:///var/www/TrackLance/database/migrations/2016_03_19_100934_create_projects_table.php&#10;Projec&#9;FILE&#9;file:///var/www/TrackLance/app/Project.php&#10;Proje&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ProjectsController.php&#10;Project.&#9;FILE&#9;file:///var/www/TrackLance/app/Project.php&#10;Clients&#9;null&#9;null&#10;Pro&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ProjectsController.php&#10;Model&#9;FILE&#9;file:///var/www/TrackLance/database/factories/ModelFactory.php&#10;cli&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;user&#9;FILE&#9;file:///var/www/TrackLance/app/User.php&#10;cl&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;cre&#9;FILE&#9;file:///var/www/TrackLance/database/migrations/2016_03_19_100934_create_projects_table.php&#10;clients/all&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/clients/all.blade.php&#10;side&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/layouts/partials/sidebar.blade.php&#10;rout&#9;FILE&#9;file:///var/www/TrackLance/app/Http/routes.php&#10;routes&#9;FILE&#9;file:///var/www/TrackLance/app/Http/routes.php&#10;clientsC&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;client&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;all.&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/clients/all.blade.php&#10;singleCl&#9;FILE&#9;file:///var/www/TrackLance/tests/functional/SingleClientCept.php&#10;logi&#9;FILE&#9;file:///var/www/TrackLance/resources/views/auth/login.blade.php&#10;head&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/layouts/partials/header.blade.php&#10;foot&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/layouts/partials/footer_scripts.blade.php&#10;AuthCo&#9;null&#9;null&#10;login.bl&#9;FILE&#9;file:///var/www/TrackLance/resources/views/auth/login.blade.php" />
+    <property name="SearchEverywhereHistoryKey" value="add&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/projects/notes/add.blade.php&#10;Project&#9;FILE&#9;file:///var/www/TrackLance/app/ProjectNotes.php&#10;note_file&#9;FILE&#9;file:///var/www/TrackLance/database/migrations/2016_03_25_000551_create_note_files_table.php&#10;getOri&#9;null&#9;null&#10;NotesC&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/NotesController.php&#10;Project.php&#9;FILE&#9;file:///var/www/TrackLance/app/Project.php&#10;P&#9;FILE&#9;file:///var/www/TrackLance/app/ProjectNotes.php&#10;Proje&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ProjectsController.php&#10;projects/si&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/projects/single.blade.php&#10;clients/al&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/clients/all.blade.php&#10;clients/a&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/clients/add.blade.php&#10;User&#9;FILE&#9;file:///var/www/TrackLance/app/User.php&#10;projects/all&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/projects/all.blade.php&#10;clie&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;proj&#9;null&#9;null&#10;Pr&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ProjectsController.php&#10;Client&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;projects/add&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/projects/add.blade.php&#10;Cl&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;Clien&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;ClientsC&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;create_p&#9;FILE&#9;file:///var/www/TrackLance/database/migrations/2016_03_19_100934_create_projects_table.php&#10;Projec&#9;FILE&#9;file:///var/www/TrackLance/app/Project.php&#10;Project.&#9;FILE&#9;file:///var/www/TrackLance/app/Project.php&#10;Clients&#9;null&#9;null&#10;Pro&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ProjectsController.php&#10;Model&#9;FILE&#9;file:///var/www/TrackLance/database/factories/ModelFactory.php&#10;cli&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;user&#9;FILE&#9;file:///var/www/TrackLance/app/User.php&#10;cl&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;cre&#9;FILE&#9;file:///var/www/TrackLance/database/migrations/2016_03_19_100934_create_projects_table.php&#10;clients/all&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/clients/all.blade.php&#10;side&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/layouts/partials/sidebar.blade.php&#10;rout&#9;FILE&#9;file:///var/www/TrackLance/app/Http/routes.php&#10;routes&#9;FILE&#9;file:///var/www/TrackLance/app/Http/routes.php&#10;clientsC&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;client&#9;FILE&#9;file:///var/www/TrackLance/app/Http/Controllers/Freelancer/ClientsController.php&#10;all.&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/clients/all.blade.php&#10;singleCl&#9;FILE&#9;file:///var/www/TrackLance/tests/functional/SingleClientCept.php&#10;logi&#9;FILE&#9;file:///var/www/TrackLance/resources/views/auth/login.blade.php&#10;head&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/layouts/partials/header.blade.php&#10;foot&#9;FILE&#9;file:///var/www/TrackLance/resources/views/freelancer/layouts/partials/footer_scripts.blade.php&#10;AuthCo&#9;null&#9;null&#10;login.bl&#9;FILE&#9;file:///var/www/TrackLance/resources/views/auth/login.blade.php" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../galiat-da3wah" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="js.buildTools.gulp.node_interpreter" value="/usr/bin/node" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
@@ -219,11 +439,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/_data" />
+      <recent name="$PROJECT_DIR$/resources/views/freelancer/projects/notes" />
       <recent name="$PROJECT_DIR$/resources/views/freelancer/projects" />
       <recent name="$PROJECT_DIR$/tests/functional/freelancer/projects" />
       <recent name="$PROJECT_DIR$/tests/functional/clients" />
-      <recent name="$PROJECT_DIR$/resources/views/freelancer/clients" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/tests/functional/freelancer" />
@@ -364,7 +584,9 @@
       <workItem from="1458748099217" duration="6660000" />
       <workItem from="1458769150841" duration="5399000" />
       <workItem from="1458859450378" duration="5705000" />
-      <workItem from="1458907297448" duration="1805000" />
+      <workItem from="1458907297448" duration="9314000" />
+      <workItem from="1458987541648" duration="7931000" />
+      <workItem from="1459090988843" duration="3012000" />
     </task>
     <task id="LOCAL-00001" summary="Build UI for Single Project">
       <created>1458773903097</created>
@@ -380,24 +602,31 @@
       <option name="project" value="LOCAL" />
       <updated>1458866103120</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update in UI for Single Project">
+      <created>1458909140254</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1458909140254</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47284000" />
+    <option name="totallyTimeSpent" value="65736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="24" width="1327" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22490272" sideWeight="0.5331808" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28793773" sideWeight="0.46681923" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23968871" sideWeight="0.46681923" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30294117" sideWeight="0.5214341" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840466" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980484" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29692307" sideWeight="0.47856587" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29692307" sideWeight="0.47856587" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -445,73 +674,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Build UI for Single Project" />
     <MESSAGE value="Create Migrations Files for Projects and Payment Methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Migrations Files for Projects and Payment Methods" />
+    <MESSAGE value="Update in UI for Single Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update in UI for Single Project" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/freelancer/clients/add.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="31" selection-start-line="0" selection-start-column="31" selection-end-line="0" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/freelancer/clients/all.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="58" column="98" selection-start-line="58" selection-start-column="98" selection-end-line="58" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/freelancer/projects/all.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="58" column="98" selection-start-line="58" selection-start-column="98" selection-end-line="58" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/pages/scripts/table-datatables-editable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="47" column="41" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/layouts/layout2/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/functional/freelancer/projects/SingleProjectCept.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/ProjectProgress.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_24_224750_create_project_progresses_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_24_224720_create_project_tasks_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_24_224750_create_project_progress_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_24_224847_create_project_notes_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_24_224738_create_project_files_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_24_224858_create_project_note_comments_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_24_234714_create_task_files_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_24_234719_create_note_files_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_24_224701_create_payment_methods_table.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_24_224836_create_project_milestones_table.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_24_235648_create_project_milestones_table.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_24_235635_create_payment_methods_table.php" />
@@ -558,13 +730,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_25_000551_create_note_files_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_25_000543_create_task_files_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -573,13 +738,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_25_000521_create_notes_table.php" />
-    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_25_000521_create_project_notes_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/2016_03_25_000456_create_project_tasks_table.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_25_001525_create_project_tasks_table.php" />
     <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_25_001737_create_project_tasks_table.php" />
@@ -603,26 +761,171 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Freelancer/ProjectsController.php">
+    <entry file="file://$PROJECT_DIR$/tests/functional/freelancer/projects/AddProjectCept.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="67" column="18" selection-start-line="67" selection-start-column="18" selection-end-line="67" selection-end-column="18" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="23" selection-end-column="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Freelancer/ProjectsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="79">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="76" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_25_000521_create_project_notes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/phpunit/php-code-coverage/src/CodeCoverage/Report/XML/Project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="51" column="25" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/ModelFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="45" column="61" selection-start-line="45" selection-start-column="61" selection-end-line="45" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_output/SingleNoteCept.fail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="312" column="67" selection-start-line="312" selection-start-column="61" selection-end-line="312" selection-end-column="67" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/freelancer/projects/single.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="151" column="41" selection-start-line="151" selection-start-column="41" selection-end-line="151" selection-end-column="41" />
+        <state relative-caret-position="288">
+          <caret line="357" column="79" selection-start-line="357" selection-start-column="79" selection-end-line="357" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Arr.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="262" column="31" selection-start-line="262" selection-start-column="27" selection-end-line="262" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Database/Eloquent/Model.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="3088" column="17" selection-start-line="3088" selection-start-column="17" selection-end-line="3088" selection-end-column="17" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/freelancer/projects/notes/single.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="41" column="54" selection-start-line="41" selection-start-column="54" selection-end-line="41" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2016_03_25_000551_create_note_files_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/ProjectNotes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/NoteFiles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/functional/freelancer/projects/notes/SingleNoteCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="98" selection-start-line="10" selection-start-column="98" selection-end-line="10" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="78" column="51" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/6192c71f/6aa7d204-7569-435c-93bf-c8c9153b00e1/note_files">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/freelancer/projects/notes/add.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="95" column="60" selection-start-line="95" selection-start-column="60" selection-end-line="95" selection-end-column="60" />
+          <folding>
+            <marker date="1459093703447" expanded="true" signature="1741:2058" placeholder="..." />
+            <marker date="1459093703447" expanded="true" signature="1769:2040" placeholder="..." />
+            <marker date="1459093703447" expanded="true" signature="1770:2039" placeholder="..." />
+            <marker date="1459093703447" expanded="true" signature="1894:2039" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/_output/AddNoteCept.fail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="336" column="38" selection-start-line="336" selection-start-column="38" selection-end-line="336" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/functional/freelancer/projects/notes/AddNoteCept.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Freelancer/NotesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="67" column="42" selection-start-line="67" selection-start-column="40" selection-end-line="67" selection-end-column="42" />
+          <folding>
+            <element signature="e#51#69#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -37,3 +37,15 @@ $factory->define(App\Project::class, function (Faker\Generator $faker) {
     ];
 });
 
+
+
+$factory->define(App\ProjectNotes::class, function (Faker\Generator $faker) {
+    return [
+        'title'                  => $faker->name,
+        'project_id'             =>  function () {
+            return factory(App\Project::class)->create()->id;
+        },
+        'description'           =>  $faker->paragraph,
+        'status'                => 1
+    ];
+});

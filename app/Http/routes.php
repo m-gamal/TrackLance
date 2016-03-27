@@ -71,5 +71,28 @@ Route::group(['middleware' => ['web']], function () {
 
 	Route::post('project/delete/{id}',
 		['as' => 'delete_project', 'uses' => 'ProjectsController@delete']);
+
+	// Project Notes
+	Route::get('project/{project_id}/notes/all',
+		['as' => 'project_notes', 'uses' => 'NotesController@listAll']);
+
+	Route::get('project/{project_id}/note/{note_id}',
+		['uses' => 'NotesController@single'])->where('project_id', '[0-9]+')
+											 ->where('note_id', '[0-9]+');
+
+	Route::get('project/{project_id}/note/add',
+		['as' => 'add_project_note', 'uses' => 'NotesController@create']);
+
+	Route::post('project/{project_id}/note/add',
+		['as' => 'add_project_note', 'uses' => 'NotesController@store']);
+
+	Route::get('project/{project_id}/note/edit/{note_id}',
+		['as' => 'edit_project_note', 'uses' => 'NotesController@edit']);
+
+	Route::post('project/{project_id}/note/edit/{note_id}',
+		['as' => 'edit_project_note', 'uses' => 'NotesController@update']);
+
+	Route::post('project/{project_id}/note/delete/{note_id}',
+		['as' => 'delete_project_note', 'uses' => 'NotesController@delete']);
 	});
 });
