@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4353fb37-c34e-408d-9146-792f4a0c88d1" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/Repositories/Clients/ClientRepositoryInterface.php" afterPath="$PROJECT_DIR$/app/Repositories/Clients/ClientInterface.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/Controllers/Freelancer/ClientsController.php" afterPath="$PROJECT_DIR$/app/Http/Controllers/Freelancer/ClientsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Providers/ClientsServiceProvider.php" afterPath="$PROJECT_DIR$/app/Providers/ClientsServiceProvider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Repositories/Clients/ClientRepository.php" afterPath="$PROJECT_DIR$/app/Repositories/Clients/ClientRepository.php" />
     </list>
     <ignored path="TrackLance.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -460,7 +456,7 @@
       <workItem from="1458859450378" duration="5705000" />
       <workItem from="1458907297448" duration="9314000" />
       <workItem from="1458987541648" duration="7931000" />
-      <workItem from="1459090988843" duration="6760000" />
+      <workItem from="1459090988843" duration="6826000" />
     </task>
     <task id="LOCAL-00001" summary="Build UI for Single Project">
       <created>1458773903097</created>
@@ -497,11 +493,18 @@
       <option name="project" value="LOCAL" />
       <updated>1459100511185</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Change 'ClientRepositoryInterface' to 'ClientInterface'">
+      <created>1459103401282</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1459103401282</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69484000" />
+    <option name="totallyTimeSpent" value="69550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="24" width="1327" height="744" extended-state="6" />
@@ -565,7 +568,8 @@
     <MESSAGE value="Update in UI for Single Project" />
     <MESSAGE value="Add Project Notes with files" />
     <MESSAGE value="Use Clients Repository Pattern" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use Clients Repository Pattern" />
+    <MESSAGE value="Change 'ClientRepositoryInterface' to 'ClientInterface'" />
+    <option name="LAST_COMMIT_MESSAGE" value="Change 'ClientRepositoryInterface' to 'ClientInterface'" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
