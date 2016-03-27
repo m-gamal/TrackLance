@@ -4,7 +4,7 @@ use App\Project;
 use Illuminate\Http\Request;
 
 class ProjectRepository implements ProjectInterface{
-    
+
     /**
      * @return mixed
      */

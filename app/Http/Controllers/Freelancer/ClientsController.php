@@ -18,6 +18,7 @@ use App\User;
  */
 class ClientsController extends Controller
 {
+    const viewPath = 'freelancer.clients.';
     protected $clients;
 
     /**
@@ -36,7 +37,7 @@ class ClientsController extends Controller
     public function listAll()
     {
         $clients = $this->clients->all();
-        return View('freelancer.clients.all', compact('clients'));
+        return View(self::viewPath.'all', compact('clients'));
     }
 
     /**
@@ -55,7 +56,7 @@ class ClientsController extends Controller
      */
     public function create()
     {
-        return View('freelancer.clients.add');
+        return View(self::viewPath.'add');
     }
 
     /**
@@ -83,7 +84,7 @@ class ClientsController extends Controller
     public function edit($id)
     {
         $client =  User::findOrFail($id);
-        return view('freelancer.clients.edit', compact('client'));
+        return view(self::viewPath.'edit', compact('client'));
     }
 
     /**

@@ -19,8 +19,8 @@ use App\Repositories\Projects\ProjectInterface;
  */
 class ProjectsController extends Controller
 {
+    const viewPath = 'freelancer.projects.';
     protected $projects;
-
     /**
      * ProjectsController constructor.
      * @param $projects
@@ -37,7 +37,7 @@ class ProjectsController extends Controller
     public function listAll()
     {
         $projects = $this->projects->all();
-        return View('freelancer.projects.all', compact('projects'));
+        return View(self::viewPath.'all', compact('projects'));
     }
 
     /**
@@ -48,7 +48,7 @@ class ProjectsController extends Controller
     public function single($id)
     {
         $project = Project::findOrFail($id);
-        return view('freelancer.projects.single', compact('project'));
+        return view(self::viewPath.'single', compact('project'));
     }
 
     /**
@@ -58,7 +58,7 @@ class ProjectsController extends Controller
     public function create()
     {
         $clients    =   $this->getClientsForProject();
-        return view('freelancer.projects.add', compact('clients'));
+        return view(self::viewPath.'add', compact('clients'));
     }
 
     /**
@@ -87,7 +87,7 @@ class ProjectsController extends Controller
     {
         $clients    =   $this->getClientsForProject();
         $project    =   Project::findOrFail($id);
-        return view('freelancer.projects.edit', compact('project', 'clients'));
+        return view(self::viewPath.'edit', compact('project', 'clients'));
     }
 
     /**

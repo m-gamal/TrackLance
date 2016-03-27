@@ -13,8 +13,7 @@ class ClientRepository implements ClientInterface{
         $clients = User::getClients();
         return $clients;
     }
-
-
+    
     /**
      * @param Request $request
      */
