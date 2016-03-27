@@ -11,6 +11,7 @@ use App\User;
 use App\Http\Requests;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Repositories\Projects\ProjectInterface;
 
 /**
  * Class ProjectsController
@@ -18,13 +19,24 @@ use App\Http\Controllers\Controller;
  */
 class ProjectsController extends Controller
 {
+    protected $projects;
+
+    /**
+     * ProjectsController constructor.
+     * @param $projects
+     */
+    public function __construct(ProjectInterface $projects)
+    {
+        $this->projects = $projects;
+    }
+
     /**
      * Show all projects
      * @return \Illuminate\View\View
      */
     public function listAll()
     {
-        $projects = Project::all();
+        $projects = $this->projects->all();
         return View('freelancer.projects.all', compact('projects'));
     }
 
@@ -59,18 +71,7 @@ class ProjectsController extends Controller
         $this->validateProjectData($request, null);
 
         try {
-            Project::create([
-                'name'          =>  $request->name,
-                'client_id'     =>  $request->client,
-                'type'          =>  $request->type,
-                'description'   =>  $request->description,
-                'start'         =>  $request->start,
-                'end'           =>  $request->end,
-                'cost'          =>  $request->cost,
-                'milestone'     =>  $request->milestone,
-                'status'        =>  $request->status
-
-            ]);
+            $this->projects->store($request);
             return redirect()->back()->withInput()->with('message','Project has been added successfully !');
         } catch (ParseException $ex) {
             echo 'Failed to create new project , with error message: ' . $ex->getMessage();
@@ -100,18 +101,7 @@ class ProjectsController extends Controller
         $this->validateProjectData($request);
 
         try {
-            Project::where('id', $id)->update([
-                'name'          =>  $request->name,
-                'client_id'     =>  $request->client,
-                'type'          =>  $request->type,
-                'description'   =>  $request->description,
-                'start'         =>  $request->start,
-                'end'           =>  $request->end,
-                'cost'          =>  $request->cost,
-                'milestone'     =>  $request->milestone,
-                'status'        =>  $request->status
-
-            ]);
+            $this->projects->update($request, $id);
             return redirect()->back()->withInput()->with('message','Project has been updated successfully !');
         } catch (ParseException $ex) {
             echo 'Failed to update this project , with error message: ' . $ex->getMessage();
@@ -127,7 +117,7 @@ class ProjectsController extends Controller
     public function delete($id)
     {
         try {
-            Project::destroy($id);
+            $this->projects->delete($id);
             return redirect()->back()->withInput()->with('message','Project has been deleted successfully !');
         } catch (ParseException $ex) {
             echo 'Failed to create delete this project , with error message: ' . $ex->getMessage();
