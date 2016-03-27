@@ -3,7 +3,7 @@
 use App\User;
 use Illuminate\Http\Request;
 
-class ClientRepository implements ClientRepositoryInterface{
+class ClientRepository implements ClientInterface{
     
     /**
      * @return mixed

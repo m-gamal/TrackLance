@@ -6,7 +6,7 @@
 
 namespace App\Http\Controllers\Freelancer;
 
-use App\Repositories\Clients\ClientRepositoryInterface;
+use App\Repositories\Clients\ClientInterface;
 use Illuminate\Http\Request;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -24,7 +24,7 @@ class ClientsController extends Controller
      * ClientsController constructor.
      * @param $clients
      */
-    public function __construct(ClientRepositoryInterface $clients)
+    public function __construct(ClientInterface $clients)
     {
         $this->clients = $clients;
     }

@@ -1,7 +1,7 @@
 <?php namespace App\Repositories\Clients;
 use Illuminate\Http\Request;
 
-Interface ClientRepositoryInterface{
+Interface ClientInterface{
     
     public function all();
     public function store(Request $request);
