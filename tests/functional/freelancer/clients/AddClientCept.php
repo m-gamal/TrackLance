@@ -3,7 +3,7 @@
 $I = new FunctionalTester($scenario);
 $I->am('a Freelancer');
 $I->wantTo('add new client');
-$I->amLoggedAs(['email' => 'mg.developer92@gmail.com', 'password' =>'password']);
+$I->amLoggedAs(\Codeception\Util\Fixtures::get('AuthData'));
 $I->amOnPage('clients/all');
 $I->click('#add_client');
 $I->amOnPage('/client/add');

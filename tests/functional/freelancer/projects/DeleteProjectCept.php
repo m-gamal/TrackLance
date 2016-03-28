@@ -1,7 +1,7 @@
 <?php 
 $I = new FunctionalTester($scenario);
 $I->wantTo('delete specific project');
-$I->amLoggedAs(['email' => 'mg.developer92@gmail.com', 'password' =>'password']);
+$I->amLoggedAs(\Codeception\Util\Fixtures::get('AuthData'));
 $project = factory(App\Project::class)->create();
 $I->amOnPage('projects/all');
 $I->click('#delete_project_'.$project->id);

@@ -3,7 +3,7 @@
 $I = new FunctionalTester($scenario);
 $I->am('a Freelancer');
 $I->wantTo('add new project');
-$I->amLoggedAs(['email' => 'mg.developer92@gmail.com', 'password' =>'password']);
+$I->amLoggedAs(\Codeception\Util\Fixtures::get('AuthData'));
 $I->amOnPage('projects/all');
 $I->click('#add_project');
 $client = factory(App\User::class)->create(['role' => 0]);

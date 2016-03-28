@@ -1,7 +1,7 @@
 <?php
 $I = new FunctionalTester($scenario);
 $I->wantTo('edit client info');
-$I->amLoggedAs(['email' => 'mg.developer92@gmail.com', 'password' =>'password']);
+$I->amLoggedAs(\Codeception\Util\Fixtures::get('AuthData'));
 $client = factory(App\User::class)->create(['role'=> 0]);
 $I->amOnPage('/client/edit/'.$client->id);
 $I->fillField('name', $client->name);

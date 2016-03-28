@@ -3,7 +3,7 @@
 $I = new FunctionalTester($scenario);
 $I->am('a Freelancer');
 $I->wantTo('list all my projects');
-$I->amLoggedAs(['email' => 'mg.developer92@gmail.com', 'password' =>'password']);
+$I->amLoggedAs(\Codeception\Util\Fixtures::get('AuthData'));
 $project = factory(App\Project::class)->create();
 $I->amOnPage('projects/all');
 $I->see('Projects List');
